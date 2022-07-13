@@ -1,3 +1,13 @@
 #drinks, #under-21 {
   display: none;
 }
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: underline;
+  color: blue;
+  font-weight: bold;
+}
