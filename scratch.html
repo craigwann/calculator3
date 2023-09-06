@@ -23,45 +23,66 @@
       <hr class="my-4">
       <p>Frequetnly used and stored information</p>
       <button class="btn btn-primary btn-lg" onclick='buttonFunction()'>Learn more</button>
-  </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="images/cardHeader_1.png" class="card-img-top" alt="background photo">
+          <div class="card-body">
+            <h5 class="card-title">IDEAS?</h5>
 
-    <div class="card" style="width: 32%;">
-      <img src="images/card_bkgrd4.png" class="card-img-top" alt="background photo">
-      <div class="card-body">
-        <h3 class="card-title">onclick event</h3>
-        <p>practice using vanilla javascript</p>
-        <button type="button" class="btn btn-primary" onclick="click1()">Click me</button>
-        <p id="demo">This is some text within a card body.</p>
-        <button class="btn btn-primary" onclick='buttonFunction2()'>Learn something</button>
+            <p>JavaScript can change HTML attribute values.</p>
+
+            <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+            <button type="button" class="btn btn-warning"
+              onclick="document.getElementById('myImage').src='images/pic_bulbon.png'">• ON •</button>
+
+            <button type="button" class="btn btn-dark"
+              onclick="document.getElementById('myImage').src='images/pic_bulboff.png'">- OFF -</button>
+
+            <img id="myImage" src="images/pic_bulboff.png" style="width: 277px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="images/cardHeader_2.png" class="card-img-top" alt="background photo">
+          <div class="card-body">
+            <h5 class="card-title">onclick event</h5>
+            <p>practice using vanilla javascript</p>
+            <button type="button" class="btn btn-primary" onclick="click1()">Click me</button>
+            <p id="demo">This is some text within a card body.</p>
+            <button class="btn btn-primary" onclick='buttonFunction2()'>Learn something</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="images/cardHeader_3.png" class="card-img-top" alt="background photo">
+          <div class="card-body">
+            <h5 class="card-title">Card title #3</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="card" style="width: 32%;">
-      <img src="images/card_bkgrd5.png" class="card-img-top" alt="background photo">
-      <div class="card-body">
-        <h4 class="card-title">IDEAS?</h4>
-
-        <p>JavaScript can change HTML attribute values.</p>
-
-        <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
-
-        <button type="button" class="btn btn-warning"
-          onclick="document.getElementById('myImage').src='images/pic_bulbon.png'">• ON •</button>
-
-        <button type="button" class="btn btn-dark"
-          onclick="document.getElementById('myImage').src='images/pic_bulboff.png'">- OFF -</button>
-
-        <img id="myImage" src="images/pic_bulboff.png" style="width:300px">
-      </div>
-    </div>
-
-    <div class="card" style="width: 32%;">
-      <img src="images/card_bkgrd6.png" class="card-img-top" alt="background photo">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 307px;">
+          <img src="images/cardHeader_4.png" class="card-img-top" alt="background photo">
+          <div class="card-body">
+            <h5 class="card-title">Card title #4</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Button (click here)</a>
+          </div>
+        </div>
       </div>
     </div>
 
