@@ -16,32 +16,55 @@
 <body>
   <div class="container">
 
-    <div class="card">
+    <div class="jumbotron">
+      <!-- <img src="images/compass.svg" style="float:left;width:110px;height:110px;"> -->
+      <h1 class="display-5">Craig's Page</h1>
+      <p class="lead">tracking miscellaneous items</p>
+      <hr class="my-4">
+      <p>Frequetnly used and stored information</p>
+      <button class="btn btn-primary btn-lg" onclick='buttonFunction()'>Learn more</button>
+  </div>
+
+    <div class="card" style="width: 32%;">
+      <img src="images/card_bkgrd4.png" class="card-img-top" alt="background photo">
       <div class="card-body">
-        <h1>HTML DOM events</h1>
-        <h3>onclick event</h3>
+        <h3 class="card-title">onclick event</h3>
         <p>practice using vanilla javascript</p>
         <button type="button" class="btn btn-primary" onclick="click1()">Click me</button>
         <p id="demo">This is some text within a card body.</p>
+        <button class="btn btn-primary" onclick='buttonFunction2()'>Learn something</button>
       </div>
     </div>
-    <div class="card">
+
+    <div class="card" style="width: 32%;">
+      <img src="images/card_bkgrd5.png" class="card-img-top" alt="background photo">
       <div class="card-body">
-        <h2>What Can JavaScript Do?</h2>
+        <h4 class="card-title">IDEAS?</h4>
 
         <p>JavaScript can change HTML attribute values.</p>
 
         <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
 
-        <button type="button" class="btn btn-warning" onclick="document.getElementById('myImage').src='images/pic_bulbon.png'">Turn on the light</button>
+        <button type="button" class="btn btn-warning"
+          onclick="document.getElementById('myImage').src='images/pic_bulbon.png'">• ON •</button>
+
+        <button type="button" class="btn btn-dark"
+          onclick="document.getElementById('myImage').src='images/pic_bulboff.png'">- OFF -</button>
 
         <img id="myImage" src="images/pic_bulboff.png" style="width:300px">
-
-        <button type="button" class="btn btn-dark" onclick="document.getElementById('myImage').src='images/pic_bulboff.png'">Turn off the light</button>
-
-
       </div>
     </div>
+
+    <div class="card" style="width: 32%;">
+      <img src="images/card_bkgrd6.png" class="card-img-top" alt="background photo">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
   </div>
 </body>
 
